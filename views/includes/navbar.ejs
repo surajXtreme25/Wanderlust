@@ -1,4 +1,4 @@
-<style>
+ <style>
   .search-btn{
     background-color: red;
     color: white;
@@ -48,7 +48,7 @@
         <li class="nav-item">
           <a class="nav-link" href="/listings/new">Airbnb your home</a>
         </li>
-        <% if(!curUser){ %>
+        <% if(!currUser){ %>
 
           <li class="nav-item">
             <a class="nav-link " href="/signup"><b>Signup</b></a>
@@ -57,7 +57,7 @@
             <a class="nav-link" href="/login"><b>Login</b></a>
           </li>
           <% } %>
-            <% if(curUser){ %>
+            <% if(currUser){ %>
               <li class="nav-item">
                 <a class="nav-link" href="/logout"><b>Logout</b></a>
               </li>
@@ -65,4 +65,5 @@
       </div>
     </div>
   </div>
-</nav>
+</nav> 
+
